@@ -225,6 +225,7 @@ footer .sig{font-family:var(--font-head);color:var(--pf-yellow);letter-spacing:.
 @media(max-width:1100px){.nav ul{gap:16px}.nav ul a{font-size:13px}}
 @media(max-width:980px){.nav .right .langsw{display:none}.wordmark{font-size:18px}}
 
+.cta-top .wrap{padding:36px 24px}.cta-top h2{font-size:clamp(22px,2.6vw,30px)}
 /* inner pages */
 .phero{background:var(--pf-black);color:#fff;padding:70px 0 60px;position:relative;overflow:hidden}
 .phero::after{content:"";position:absolute;inset:auto -10% -40% auto;width:50%;height:120%;background:repeating-linear-gradient(115deg,transparent 0 42px,rgba(254,207,8,.07) 42px 46px);transform:skewY(-6deg);pointer-events:none}

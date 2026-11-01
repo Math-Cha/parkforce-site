@@ -17,23 +17,24 @@
 <body>
 <header>
   <div class="wrap nav">
-    <a class="logo" href="index.html" aria-label="ParkForce"><img src="assets/logo-blanc.png" alt="ParkForce"></a>
+    <a class="logo" href="index.html" aria-label="ParkForce"><img src="assets/logo-blanc.png" alt="ParkForce"><span class="wordmark">Park<em>Force</em></span></a>
     <ul><li><a href="etude.html">Étude & plans</a></li><li><a href="installation.html">Installation</a></li><li><a href="maintenance.html">Maintenance</a></li><li><a href="index.html#pourqui">Pour qui</a></li><li><a href="index.html#couverture">Couverture</a></li><li><a href="contact.html">Contact</a></li></ul>
     <div class="right">
       <span class="tel">+33 7 67 77 21 47</span>
-      <a class="lang" href="en/mentions-legales.html" hreflang="en">EN</a>
-      <a class="btn btn-y" href="contact.html">Demander un devis</a>
+      <div class="langsw"><span>FR</span><a href="en/mentions-legales.html" hreflang="en">EN</a></div>
+      <a class="btn btn-y" href="contact.html#form">Demander un devis</a>
       <button class="burger" aria-label="Menu" onclick="document.getElementById('mnav').classList.toggle('open')">☰</button>
     </div>
   </div>
   <nav class="mobile-nav" id="mnav"><a href="etude.html">Étude & plans</a><a href="installation.html">Installation</a><a href="maintenance.html">Maintenance</a><a href="index.html#pourqui">Pour qui</a><a href="index.html#couverture">Couverture</a><a href="contact.html">Contact</a><a href="en/mentions-legales.html">EN</a></nav>
 </header>
+<div class="hazard"></div>
 <section class="phero" style="padding:50px 0 40px"><div class="wrap"><h1>Mentions légales</h1></div></section><section><div class="wrap prose"><h3>Éditeur</h3><p>ParkForce — FTM ELEC, SAS<br>Siège : 1 rue Michelet, 94200 Ivry-sur-Seine<br>SIREN : 827 450 388<br>Directeur de la publication : Mathieu CHAPLAIN<br>Contact : contact@parkforce.pro · +33 7 67 77 21 47</p><h3>Hébergement</h3><p>GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p><h3>Données personnelles</h3><p>Les informations saisies dans le formulaire de contact sont utilisées uniquement pour répondre à votre demande et ne sont pas transmises à des tiers. Vous disposez d'un droit d'accès, de rectification et de suppression en écrivant à contact@parkforce.pro.</p><h3>Cookies</h3><p>Ce site n'utilise pas de cookies de suivi.</p></div></section>
 <footer>
   <div class="wrap">
     <div class="cols">
       <div>
-        <img src="assets/logo-blanc.png" alt="ParkForce">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px"><img src="assets/logo-blanc.png" alt="ParkForce" style="margin:0"><span class="wordmark">Park<em>Force</em></span></div>
         <p style="font-size:14px;max-width:300px">Étude, installation et maintenance des équipements de parking, partout en France, sur toutes les marques.</p>
         <p class="sig" style="margin-top:16px">Étude · Installation · Maintenance</p>
       </div>

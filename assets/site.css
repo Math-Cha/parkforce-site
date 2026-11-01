@@ -164,12 +164,12 @@ footer .sig{font-family:var(--font-head);color:var(--pf-yellow);letter-spacing:.
 .wordmark{white-space:nowrap;font-family:var(--font-head);font-weight:800;font-size:21px;letter-spacing:-.01em;color:#fff;display:inline-block}
 .wordmark em{font-style:normal;color:var(--pf-yellow)}
 .nav .logo{display:flex;align-items:center;gap:12px}
-.hazard{height:6px;background:repeating-linear-gradient(-45deg,#0F1015 0 14px,#FECF08 14px 28px);opacity:.95}
-.hazard-thin{height:3px;width:120px;background:repeating-linear-gradient(-45deg,#0F1015 0 8px,#FECF08 8px 16px);border-radius:2px;margin:18px 0 0}
-.dark .hazard-thin,.hero .hazard-thin{background:repeating-linear-gradient(-45deg,#2b2c33 0 8px,#FECF08 8px 16px)}
+.hazard{height:4px;background:var(--pf-yellow)}
+.hazard-thin{height:4px;width:72px;background:var(--pf-yellow);border-radius:2px;margin:18px 0 0}
+
 .hero{min-height:620px}
-.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:.55;pointer-events:none}
-.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,16,21,.96) 0%,rgba(15,16,21,.85) 45%,rgba(15,16,21,.35) 100%);z-index:0}
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:.8;pointer-events:none}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,16,21,.92) 0%,rgba(15,16,21,.72) 45%,rgba(15,16,21,.15) 100%);z-index:0}
 .hero .wrap{z-index:1}
 .hero-art{display:none}
 .hero h1 .brand{color:#fff}.hero h1 .brand em{font-style:normal;color:var(--pf-yellow)}
@@ -177,7 +177,7 @@ footer .sig{font-family:var(--font-head);color:var(--pf-yellow);letter-spacing:.
 .metier .ph{height:190px;background:#17181e;overflow:hidden;position:relative}
 .metier .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
 .metier:hover .ph img{transform:scale(1.04)}
-.metier .ph::after{content:"";position:absolute;left:0;right:0;bottom:0;height:5px;background:repeating-linear-gradient(-45deg,#0F1015 0 10px,#FECF08 10px 20px)}
+.metier .ph::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:var(--pf-yellow)}
 .metier .bd{padding:26px 28px 28px;display:flex;flex-direction:column;flex:1}
 .metier .num{margin-top:-44px;position:relative;z-index:2;box-shadow:0 4px 12px rgba(0,0,0,.25)}
 .cta-mid{background:var(--pf-black);color:#fff;border-top:6px solid var(--pf-yellow)}

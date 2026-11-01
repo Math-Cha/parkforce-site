@@ -1,0 +1,14 @@
+name = "parkforce-assistant"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://parkforce.pro,https://www.parkforce.pro,https://math-cha.github.io"
+MODEL = "claude-haiku-4-5"
+CALENDLY_URL = "https://calendly.com/mathieu-chaplain-parkforce/30min"
+
+# Secrets à poser une fois :
+#   npx wrangler secret put ANTHROPIC_API_KEY
+#   npx wrangler secret put LEAD_WEBHOOK      # ex. https://formsubmit.co/ajax/contact@parkforce.pro
+# Déploiement : npx wrangler deploy   → URL du type https://parkforce-assistant.<compte>.workers.dev
+# Puis renseigner cette URL dans assets/chat.js (CHAT_ENDPOINT).
